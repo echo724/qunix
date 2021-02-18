@@ -7,11 +7,11 @@ QuNix is a project of Unix like python programs by using Qiskit and Quantum Circ
 
 ### Quantum Circuuit Builder(QCB)
 
-**[Document]**("https://github.com/echo724/qunix/blob/main/qcb/README")
+[Document]("https://github.com/echo724/qunix/blob/main/qcb/README")
 
 ### QFortune
 
-**[Document]**("https://github.com/echo724/qunix/blob/main/qfortune/README")
+[Document]("https://github.com/echo724/qunix/blob/main/qfortune/README")
 
 # Slack Connection
 
