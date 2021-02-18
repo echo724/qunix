@@ -23,7 +23,7 @@ def long_description():
     return readme
 
 setup(name='qunix-tools',
-    version='0.1.3.1',
+    version='0.1.4',
     description='Library of unix-like python programs related to Qiskit',
     long_description=long_description(),
     url='https://github.com/echo724/qcb',
@@ -34,5 +34,6 @@ setup(name='qunix-tools',
         'Programming Language :: Python :: 3.7',
         ],
     scripts=['bin/qcb','bin/alea'],
+    py_modules=['microqiskit'],
     packages=find_packages(include=['qcb','alea']),
     zip_safe=False)
