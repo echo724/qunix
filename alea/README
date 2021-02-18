@@ -1,0 +1,30 @@
+Alea
+========
+
+Random Qauntum Quotes Generator using Quantum's Superposition
+
+Usage
+---------
+python alea -f (emotion)
+---------
+
+- Shows the random quotes related Quantum
+- Measuring quantum's superposition state gives randomness
+- Can change the emoji of output by entering emotion arguments
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -f F        Emotions List
+              ---------------
+              angry
+              boring
+              crazy
+              dissastifaction
+              dog
+              embarrassed
+              excited
+              happy
+              joy
+              sad
+              sleepy
+              stupid

@@ -7,7 +7,7 @@ QuNix is a project of Unix like python programs by using Qiskit and Quantum Circ
 
 ### Quantum Circuuit Builder(QCB)
 
-### QFortune
+### Alea
 
 # Slack Connection
 
