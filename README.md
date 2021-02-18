@@ -3,12 +3,9 @@ QuNix is a project of Unix like python programs by using Qiskit and Quantum Circ
 
 - Both program use **MicroQiskit** [https://github.com/qiskit-community/MicroQiskit](https://github.com/qiskit-community/MicroQiskit)
 
-## Quantum Circuuit Builder(QCB)
+### [Quantum Circuuit Builder(QCB)]("qcb/REAMDE")
 
-### [Document]("qcb/REAMDE")
-
-## QFortune
-### [Documents]("qfortune/README")
+### [QFortune]("qfortune/README")
 
 # Slack Connection
 
