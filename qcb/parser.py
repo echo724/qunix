@@ -1,8 +1,18 @@
 import argparse
 
 def argparsing():
-    parser = argparse.ArgumentParser(description='''Build Quantum Circuit usign MicroQiskit
-    It will read arguments, build quantum circuit based on them, and show the result of simulation(Default Result: Counts)\
+    parser = argparse.ArgumentParser(description='''\
+    Build Quantum Circuit using MicroQiskit
+    - Create Circuit from Online Gate Instruction
+    - Return simulation result
+
+    Simple Usage
+    ------------
+    qcb -q 2 -c 2 (--prob)(--state) "h 0 cx 0 1 m all"
+    ------------
+    - The Default Result is Counts
+    - Choose result type either prob or state
+    \
     ''',formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument('-q', type=int, nargs=1,
                         help='An integer for adding quantum bits',required=True)
@@ -12,7 +22,7 @@ def argparsing():
     parser.add_argument('--state', help='Return statevector as the result',action="store_true")
     parser.add_argument(nargs="+",metavar="gates",dest="gates",help='''\
     String for applying gate and its position
-    Input Type
+    Gate Type
     --------------------
     h a: Hadamard gate at qubit a
     x a: X gate at qubit a
@@ -22,7 +32,7 @@ def argparsing():
     rz a b: RZ gate at qubit b by rotating a
     ry a b: RY gate at qubit b by rotating a
     cx a b: CNOT gate at control a, target b
-    crx a b o: CRX gate at control b, target o by rotating a
+    crx a b c: CRX gate at control b, target c by rotating a
     m a b: Measure at qubit a to clbit b
     m 'all': Measure all qubits
     --------------------\

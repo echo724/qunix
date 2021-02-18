@@ -33,8 +33,36 @@ def comment_feeling(feeling):
     with open("./fortune_box/emotion/"+feeling+".txt", "r", encoding='UTF8') as file:
         print(file.read())
 
-parser = argparse.ArgumentParser()
-parser.add_argument('-f', help='Enter your Emotion!', required=True, type=str)
+parser = argparse.ArgumentParser(description='''\
+Random Qauntum Quotes Generator using Quantum's Superposition
+
+Usage
+---------
+python qfortune -f (emotion)
+---------
+
+- Shows the random quotes related Quantum
+- Measuring quantum's superposition state gives randomness
+- Can change the emoji of output by entering emotion arguments
+
+''',formatter_class=argparse.RawTextHelpFormatter)
+parser.add_argument('-f', help='''\
+Emotions List
+---------------
+angry
+boring
+crazy
+dissastifaction
+dog
+embarrassed
+excited
+happy
+joy
+sad
+sleepy
+stupid\
+'''
+, default="happy", type=str)
 
 args = parser.parse_args()
 
