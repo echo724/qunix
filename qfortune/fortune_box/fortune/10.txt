@@ -1,0 +1,4 @@
+There are 3 types of people in this world
+Those who understand quantum computing
+Those who do not understand quantum computing
+And those who both simultaneously do and do not understand quantum computing

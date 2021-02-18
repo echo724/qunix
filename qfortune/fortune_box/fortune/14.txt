@@ -1,0 +1,3 @@
+Why is quantum physics so much harder than regular physics?
+Because in regular physics, if something can go wrong, it will.
+But in quantum physics, if something *could* go wrong, it will.
