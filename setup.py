@@ -15,7 +15,7 @@
 # specific language governing permissions and limitations
 # under the License.
 import io
-from setuptools import setup
+from setuptools import setup,find_packages
 
 def long_description():
     with io.open('README.md', 'r', encoding='utf-8') as f:
@@ -23,7 +23,7 @@ def long_description():
     return readme
 
 setup(name='qunix-tools',
-    version='0.1.2',
+    version='0.1.3.1',
     description='Library of unix-like python programs related to Qiskit',
     long_description=long_description(),
     url='https://github.com/echo724/qcb',
@@ -34,5 +34,5 @@ setup(name='qunix-tools',
         'Programming Language :: Python :: 3.7',
         ],
     scripts=['bin/qcb','bin/alea'],
-    packeges=['alea','qcb'],
+    packages=find_packages(include=['qcb','alea']),
     zip_safe=False)

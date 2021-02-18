@@ -1,3 +1,5 @@
-inculde microqiskit.py
+include microqiskit.py
+
 include LICENSE
+
 include NOTICE

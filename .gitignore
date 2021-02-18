@@ -1,3 +1,6 @@
 __pycache__/
 .DS_Store
 Makefile
+dist
+build
+*.egg-info
