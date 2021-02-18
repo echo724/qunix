@@ -1,0 +1,6 @@
+[submodule "qcb"]
+	path = qcb
+	url = git://github.com/echo724/qcb
+[submodule "qfortune"]
+	path = qfortune
+	url = git://github.com/echo724/qfortune
