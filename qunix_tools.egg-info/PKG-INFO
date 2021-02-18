@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: qunix-tools
+Version: 0.1
+Summary: Library of unix-like python programs related to Qiskit
+Home-page: https://github.com/echo724/qcb
+Author: qunix
+Author-email: eunchan1001@gmail.com
+License: Apache License 2.0
+Description: # QuNix
+        QuNix is a project of Unix like python programs by using Qiskit and Quantum Circuit with following Unix Philosophy
+        
+        - Both program use **MicroQiskit** [https://github.com/qiskit-community/MicroQiskit](https://github.com/qiskit-community/MicroQiskit)
+        
+        ## Program Lists
+        
+        ### Quantum Circuuit Builder(QCB)
+        
+        ### Alea
+        
+        # Slack Connection
+        
+        # Credit
+        
+        MicroQiskit(https://github.com/qiskit-community/MicroQiskit)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7

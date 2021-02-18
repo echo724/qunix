@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+NOTICE
+README.md
+setup.py
+bin/alea
+bin/qcb
+qunix_tools.egg-info/PKG-INFO
+qunix_tools.egg-info/SOURCES.txt
+qunix_tools.egg-info/dependency_links.txt
+qunix_tools.egg-info/not-zip-safe
+qunix_tools.egg-info/top_level.txt
