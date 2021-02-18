@@ -92,7 +92,6 @@ stupid
 
 # Slack Connection
 
-
-# License
+# Credit
 
 MicroQiskit(https://github.com/qiskit-community/MicroQiskit)
