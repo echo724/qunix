@@ -5,9 +5,9 @@ QuNix is a project of Unix like python programs by using Qiskit and Quantum Circ
 
 ## Program Lists
 
-### [Quantum Circuuit Builder(QCB)]("./qcb/REAMDE")
+### [Quantum Circuuit Builder(QCB)]("qunix/qcb/REAMDE")
 
-### [QFortune]("./qfortune/README")
+### [QFortune]("qunix/qfortune/README")
 
 # Slack Connection
 
