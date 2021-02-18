@@ -5,9 +5,9 @@ QuNiX is a project of Unix like python programs by using Qiskit and Quantum Circ
 
 ## Program Lists
 
-### [Quantum Circuuit Builder(QCB)]("qcb")
+### [Quantum Circuuit Builder(QCB)](https://github.com/echo724/qunix/tree/main/qcb)
 
-### [Alea]("alea")
+### [Alea](https://github.com/echo724/qunix/tree/main/alea)
 
 # Slack Connection
 
