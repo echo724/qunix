@@ -3,7 +3,7 @@ QuNix is a project of Unix like python programs by using Qiskit and Quantum Circ
 
 # Program lists
 
-- Both programs use **MicroQiskit** [https://github.com/qiskit-community/MicroQiskit](https://github.com/qiskit-community/MicroQiskit)
+- Both program use **MicroQiskit** [https://github.com/qiskit-community/MicroQiskit](https://github.com/qiskit-community/MicroQiskit)
 
 ## Quantum Circuuit Builder(QCB)
     
