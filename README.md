@@ -1,16 +1,14 @@
 # QuNix
 QuNix is a project of Unix like python programs by using Qiskit and Quantum Circuit with following Unix Philosophy
 
-# Program lists
-
 - Both program use **MicroQiskit** [https://github.com/qiskit-community/MicroQiskit](https://github.com/qiskit-community/MicroQiskit)
 
-## Quantum Circuuit Builder(QCB)
+# Quantum Circuuit Builder(QCB)
     
     - By using simple one line arguments, it will give the result of Quantum Circuit Simulation
     - It builds Quantum Circuit and get the simulation result from the circuit
 
-### Usage
+## Usage
 
 1. Clone this github repo to your machine
 
@@ -23,7 +21,7 @@ $git clone https://github.com/echo724/qunix
 python qcb -h 2 -q 2 "h 0 cx 0 1 m all"
 ```
 
-### Arguments
+## Arguments
 
 - **List of Arguments**
 
@@ -51,13 +49,13 @@ CRX|crx a b c| CRX gate at control b, target c by rotating a
 Measure|m a b| Measure at qubit a to clbit b
 Measure|m 'all'| Measure all qubits
 
-## QFortune
+# QFortune
 
 - It shows the random quotes related Quantum
 - This randomness comes from the simulation result of measuring quantum's superposition state
 - Can change the emoji of output by entering emotion arguments
 
-### Usage
+## Usage
 
 1. Clone this github repo to your machine
 
@@ -72,7 +70,7 @@ $git clone https://github.com/echo724/qunix
 python qfortune -f joy
 ```
 
-### Available Emotions
+## Available Emotions
 
 Emotion|
 ---|
