@@ -3,7 +3,7 @@ qunix is a repo of Python scripts related to Quantum and Qiskit following Unix P
 
 # program lists
 
-- Circuuit Builder
+- Quantum Circuuit Builder(qcb)
 
 - Fortune
 
