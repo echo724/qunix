@@ -1,1 +1,0 @@
-from qfortune import *
