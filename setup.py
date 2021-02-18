@@ -36,4 +36,11 @@ setup(name='qunix-tools',
     scripts=['bin/qcb','bin/alea'],
     py_modules=['microqiskit'],
     packages=find_packages(include=['qcb','alea']),
+    package_data={
+        "alea":[
+            "fortune_box/emotion/*.txt",
+            "fortune_box/fortune/*.txt",
+            "emotion_list.txt"
+        ]
+    },
     zip_safe=False)
