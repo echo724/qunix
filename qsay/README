@@ -2,3 +2,6 @@ QSAY
 ====
 
 Quantum based Random Quantum Circuit Generator saying String input
+
+- Generate Qauntum Circuit Output randomly created by measuring superposition state of qubits
+- Say String Arguments
