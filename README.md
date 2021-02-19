@@ -23,3 +23,7 @@ Share the result of qauntum computation and qauntum quotes randomly selected by 
 Qiskit(https://github.com/Qiskit/qiskit)
 
 MicroQiskit(https://github.com/qiskit-community/MicroQiskit)
+
+# Licencse
+
+[Apache License 2.0](LICENSE)
