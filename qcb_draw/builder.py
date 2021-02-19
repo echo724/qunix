@@ -5,7 +5,6 @@ from parse import *
 from qiskit import QuantumCircuit
 from qiskit import execute
 from qiskit import BasicAer
-import microqiskit as mq
 
 
 qn,cn,prob,state,instruct = argparsing()
