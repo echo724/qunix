@@ -1,15 +1,21 @@
 ![Team Logo](team_logo.jpg)
 
 # QuNiX
-QuNiX is a project of Unix like python programs by using Qiskit and Quantum Circuit with following Unix Philosophy
+QuNiX is a project of Unix like python programs by using Qiskit and Quantum Circuit with following [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)
 
 - Programs use [**MicroQiskit**](https://github.com/qiskit-community/MicroQiskit) and [**Qiskit**](https://github.com/Qiskit/qiskit)
 
 ## Program Lists
 
-### [Quantum Circuuit Builder(QCB)](https://github.com/echo724/qunix/tree/main/qcb)
+### [Quantum Circuit Builder(QCB)](https://github.com/echo724/qunix/tree/main/qcb)
+
+### [QCB_Draw](https://github.com/echo724/qunix/tree/main/qcb_draw)
 
 ### [Alea](https://github.com/echo724/qunix/tree/main/alea)
+
+### [QArt](https://github.com/echo724/qunix/qart)
+
+### [QSay](https://github.com/echo724/qunix/tree/main/qsay)
 
 ## Usage
 
