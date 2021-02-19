@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import argparse
 
 def argparsing():
@@ -17,13 +19,13 @@ def argparsing():
     ------------------------------------------------------------
     \
     ''',formatter_class=argparse.RawTextHelpFormatter)
-    parser.add_argument('-q', type=int, nargs=1,
+    parser.add_argument('-q', type=int, nargs=1,default=2,
                         help='An integer for adding quantum bits')
-    parser.add_argument('-c', type=int, nargs=1,
+    parser.add_argument('-c', type=int, nargs=1,default=2,
                         help='An integer for adding classical bits')
     parser.add_argument('--prob', help='Return probabilities as the result',action="store_true")
     parser.add_argument('--state', help='Return statevector as the result',action="store_true")
-    parser.add_argument(nargs="+",metavar="gates",dest="gates",help='''\
+    parser.add_argument(nargs="+",metavar="gates",default="h 0 h 1 m .",dest="gates",help='''\
     String for applying gate and its position
     Gate Type
     --------------------
@@ -40,6 +42,7 @@ def argparsing():
     m .: Measure all qubits
     --------------------\
     ''')
+
     args = parser.parse_args()
 
     assert args.q[0] > 0, "Qbit number must be bigger than 0"
