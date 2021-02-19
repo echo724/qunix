@@ -1,3 +1,5 @@
+![Team Logo](team_logo.jpg)
+
 # QuNiX
 QuNiX is a project of Unix like python programs by using Qiskit and Quantum Circuit with following Unix Philosophy
 
