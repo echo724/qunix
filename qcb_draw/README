@@ -1,16 +1,13 @@
-QCB
-===
+QCB_Draw
+========
 
-Build Quantum Circuit using MicroQiskit
-- Create Circuit from Online Gate Instruction
-- Return simulation result
+Build Quantum Circuit and Show the Cirucuit Using Qiskit
+- Beside the functions of QCB, this shows the circuit output using qiskit's draw function
 
 Simple Usage
-------------
+------------------------------------------------------------
 qcb -q 2 -c 2 (--prob)(--state) "h 0 cx 0 1 m ."
-------------
-- The Default Result is Counts
-- Choose result type either prob or state
+------------------------------------------------------------
         
 positional arguments:
   gates           String for applying gate and its position
