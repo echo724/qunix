@@ -1,9 +1,5 @@
 ![Team Logo](team_logo.jpg)
 
----
-### This project is for IBM's [Qiskit-Hackerthon-Korea-2021](https://github.com/qiskit-community/qiskit-hackathon-korea-21)
----
-
 # QuNiX
 
 QuNiX is a project of Unix like python programs by using Qiskit and Quantum Circuit with following [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)
@@ -43,6 +39,10 @@ By running our programs as backend of Slack Bot, Qiri will get the input from th
 This means we can run the **QCB** and **Alea** anytime we want in Slack.
 
 Share the result of qauntum computation and qauntum quotes randomly selected by measuring superposition of qubits
+
+---
+### This project is for IBM's [Qiskit-Hackerthon-Korea-2021](https://github.com/qiskit-community/qiskit-hackathon-korea-21)
+---
 
 ## Credit
 
