@@ -6,7 +6,7 @@ QuNiX is a project of Unix like python programs by using Qiskit and Quantum Circ
 
 - Programs use [**MicroQiskit**](https://github.com/qiskit-community/MicroQiskit) and [**Qiskit**](https://github.com/Qiskit/qiskit)
 
-## Program Lists
+## Program List
 
 ### [Quantum Circuit Builder(QCB)](https://github.com/echo724/qunix/tree/main/qcb)
 
