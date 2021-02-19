@@ -17,6 +17,8 @@ $pip install qunix-tools
 
 $qcb -q 3 -c 3 "h 0 h 1 h 2 m ."
 
+$qcb_draw -q 2 -c 2 "h 0 h 1 m ."
+
 $alea -f happy
 ```
 
