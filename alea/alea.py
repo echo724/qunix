@@ -67,17 +67,19 @@ def comment_feeling(feeling):
         print("")
 
 parser = argparse.ArgumentParser(description='''\
-Random Qauntum Quotes Generator using Quantum's Superposition
+Alea
+====
+
+Random Quantum Quotes Generator from measuring qubit's superposition state
+
+- Measuring qubit's superposition state give random classical bit
+- It picks the Quotes randomly by using this
+- Can change the Ascii Emoji by using -f flag (available emotions are in Emotions List below)
 
 Usage
----------
-python alea -f (emotion)
----------
-
-- Shows the random quotes related Quantum
-- Measuring quantum's superposition state gives randomness
-- Can change the emoji of output by entering emotion arguments
-
+---------------------------------------------
+alea -f (emotion)
+---------------------------------------------
 ''',formatter_class=argparse.RawTextHelpFormatter)
 parser.add_argument('-f', help='''\
 Emotions List

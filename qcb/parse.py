@@ -2,16 +2,19 @@ import argparse
 
 def argparsing():
     parser = argparse.ArgumentParser(description='''\
+    QCB
+    ===
+
     Build Quantum Circuit using MicroQiskit
-    - Create Circuit from Online Gate Instruction
-    - Return simulation result
+
+    - By entering one line arguemnts, it will build Quantum Circuit and get the result of its simulation
+    - The default result type is counts, but `--prob` and `--state` will change the result type
+    - For the syntax of gate instruction, see the Gate Type below
 
     Simple Usage
-    ------------
-    qcb -q 2 -c 2 (--prob)(--state) "h 0 cx 0 1 m all"
-    ------------
-    - The Default Result is Counts
-    - Choose result type either prob or state
+    ------------------------------------------------------------
+    qcb -q 2 -c 2 (--prob)(--state) "h 0 cx 0 1 m ."
+    ------------------------------------------------------------
     \
     ''',formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument('-q', type=int, nargs=1,

@@ -2,20 +2,20 @@ QCB
 ===
 
 Build Quantum Circuit using MicroQiskit
-- Create Circuit from Online Gate Instruction
-- Return simulation result
+
+- By entering one line arguemnts, it will build Quantum Circuit and get the result of its simulation
+- The default result type is counts, but `--prob` and `--state` will change the result type
+- For the syntax of gate instruction, see the Gate Type below
 
 Simple Usage
-------------
+------------------------------------------------------------
 qcb -q 2 -c 2 (--prob)(--state) "h 0 cx 0 1 m ."
-------------
-- The Default Result is Counts
-- Choose result type either prob or state
+------------------------------------------------------------
         
 positional arguments:
   gates           String for applying gate and its position
                   Gate Type
-                  --------------------
+                  ------------------------------------------------------------
                   h a: Hadamard gate at qubit a
                   x a: X gate at qubit a
                   y a: Y gate at qubit a
@@ -27,7 +27,7 @@ positional arguments:
                   crx a b c: CRX gate at control b, target c by rotating a
                   m a b: Measure at qubit a to clbit b
                   m .: Measure all qubits
-                  --------------------    
+                  ------------------------------------------------------------    
 
 optional arguments:
   -h, --help  show this help message and exit

@@ -2,16 +2,16 @@ import argparse
 
 def argparsing():
     parser = argparse.ArgumentParser(description='''\
-    Build Quantum Circuit using MicroQiskit
-    - Create Circuit from Online Gate Instruction
-    - Return simulation result
+    QCB_Draw
+    ========
+
+    Build Quantum Circuit and Show the Cirucuit Using Qiskit
+    - Beside the functions of QCB, this shows the circuit output using qiskit's draw function
 
     Simple Usage
-    ------------
-    qcb -q 2 -c 2 (--prob)(--state) "h 0 cx 0 1 m all"
-    ------------
-    - The Default Result is Counts
-    - Choose result type either prob or state
+    ------------------------------------------------------------
+    qcb -q 2 -c 2 (--prob)(--state) "h 0 cx 0 1 m ."
+    ------------------------------------------------------------
     \
     ''',formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument('-q', type=int, nargs=1,
