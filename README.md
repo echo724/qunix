@@ -11,7 +11,7 @@ QuNiX is a project of Unix like python programs by using Qiskit and Quantum Circ
 
 ## Usage
 
-### Terminal
+### In Terminal
 ```
 $pip install qunix-tools
 
