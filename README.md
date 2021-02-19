@@ -1,8 +1,10 @@
 ![Team Logo](team_logo.jpg)
 
-# QuNiX
+---
+### This project is for IBM's [Qiskit-Hackerthon-Korea-2021](https://github.com/qiskit-community/qiskit-hackathon-korea-21)
+---
 
-This project is part of IBM's [Qiskit-Hackerthon-Korea-2021](https://github.com/qiskit-community/qiskit-hackathon-korea-21)
+# QuNiX
 
 QuNiX is a project of Unix like python programs by using Qiskit and Quantum Circuit with following [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)
 
