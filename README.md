@@ -31,7 +31,7 @@ $qcb_draw -q 2 -c 2 "h 0 h 1 m ."
 $alea -f happy
 ```
 
-## Slack Connection
+## Slack Implementation
 
 ### Qiri
 
