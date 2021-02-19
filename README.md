@@ -14,7 +14,7 @@ QuNiX is a project of Unix like python programs by using Qiskit and Quantum Circ
 
 ### [Alea](https://github.com/echo724/qunix/tree/main/alea)
 
-### [QArt](https://github.com/echo724/qunix/qart)
+### [QArt](https://github.com/echo724/qunix/tree/main/qart)
 
 ### [QSay](https://github.com/echo724/qunix/tree/main/qsay)
 
