@@ -13,4 +13,6 @@ QuNiX is a project of Unix like python programs by using Qiskit and Quantum Circ
 
 # Credit
 
+Qiskit(https://github.com/Qiskit/qiskit)
+
 MicroQiskit(https://github.com/qiskit-community/MicroQiskit)
