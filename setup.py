@@ -23,10 +23,11 @@ def long_description():
     return readme
 
 setup(name='qunix-tools',
-    version='0.1.5.1',
+    version='0.1.5.2',
     description='Library of unix-like python programs related to Qiskit',
     long_description=long_description(),
     url='https://github.com/echo724/qcb',
+    long_description_content_type='text/markdown',
     author='QuNiX',
     author_email='eunchan1001@gmail.com',
     license='Apache License 2.0',
