@@ -23,22 +23,22 @@ def long_description():
     return readme
 
 setup(name='qunix-tools',
-    version='0.1.5',
+    version='0.1.5.1',
     description='Library of unix-like python programs related to Qiskit',
     long_description=long_description(),
     url='https://github.com/echo724/qcb',
-    author='qunix',
+    author='QuNiX',
     author_email='eunchan1001@gmail.com',
     license='Apache License 2.0',
     classifiers=[
         'Programming Language :: Python :: 3.7',
         ],
-    scripts=['bin/qcb','bin/alea'],
+    scripts=['bin/qcb','bin/alea','bin/qart','bin/qcb_draw','bin/qsay'],
     py_modules=['microqiskit'],
     install_requires=[
         "qiskit >= 0.16.2"
     ],
-    packages=find_packages(include=['qcb','alea']),
+    packages=find_packages(include=['qcb','alea','qcb_draw','qart','qsay']),
     package_data={
         "alea":[
             "fortune_box/emotion/*.txt",
